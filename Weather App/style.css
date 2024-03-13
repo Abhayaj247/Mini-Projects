@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.input-search {
+  text-align: center;
+  width: 100%;
+  margin-top: 50px;
+}
+#input {
+  border: none;
+  border-radius: 8px;
+  background-color: #f2f3;
+  color: black;
+  outline: none;
+  font-size: 18px;
+  padding: 5px;
+  padding-left: 15px;
+  transition: all 0.3s ease;
+  margin: 8px;
+}
+#btn {
+  border: none;
+  background-color: #f79d;
+  color: black;
+  cursor: pointer;
+  font-weight: 400;
+  font-size: 18px;
+  border-radius: 10px;
+  padding: 5px;
+  text-align: center;
+}
+.weather-content {
+  margin: 50px;
+
+  width: 50;
+  height: 600px;
+}
+.icon {
+  font-size: 60px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.location {
+  font-size: 60px;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.temperature {
+  font-size: 30px;
+  text-align: center;
+  font-weight: 400;
+}
+.description {
+  font-size: 18px;
+  text-align: center;
+  font-weight: 400;
+  margin-top: 5px;
+}
